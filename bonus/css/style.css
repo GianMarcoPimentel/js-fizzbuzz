@@ -1,3 +1,7 @@
+body{
+    background-color: #083B4C;
+    font-family: sans-serif;
+}
 .container{
     max-width: 1170px;
     /* padding: 100px; */
@@ -19,6 +23,18 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
-    
+    border: 1px solid black;
 
+}
+.square.multiple3{
+    background-color: #0CD6A1;
+}
+.square.multiple5{
+    background-color: #FFD166;
+}
+.square.multiple3.multiple5{
+   background-color: #F0466F;
+}
+.square.normal{
+    background-color: #1389B2;
 }
