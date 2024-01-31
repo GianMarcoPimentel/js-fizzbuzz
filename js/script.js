@@ -29,7 +29,7 @@ const grigliaElement = document.querySelector("#griglia")
             if (i % 3 == 0 && i % 5 == 0){
             
                 grigliaElement.innerHTML += `
-                <div class="square multiple3-5">fizzbuzz</div>
+                <div class="square multiple3 multiple5">fizzbuzz</div>
                 `;
             } else if (i % 5 == 0){
                 grigliaElement.innerHTML += `<div class="square multiple5">buzz</div>
